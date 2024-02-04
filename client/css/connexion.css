@@ -1,0 +1,297 @@
+body{
+    background-color: rgb(254, 255, 255);
+}
+header{
+    position: relative;
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(120, 125, 144);
+    padding: 2% 0 2% 0;
+}
+header h1{
+    font-size: 50px;
+    color: aliceblue;
+    font-family:Arial, Helvetica, sans-serif;
+}
+section{
+    position: relative;
+    width: 25%;
+    height: 40vh;
+    display: grid;
+    justify-content: center;
+    margin: 10% 0 0 35%;
+    align-items: center;
+     background-color: rgb(254, 255, 255);
+    background-color: rgb(13, 140, 66);
+}
+section form{
+    display: grid;
+}
+form label{
+    display: flex;
+    justify-content: center;
+    margin: 1%;
+    font-weight: bolder;
+}
+form button{
+    margin: 4% auto;
+    width: 75%;
+    height: 100%;
+    border-radius: 5%;
+    background-color: rgb(177, 177, 177);
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+#allnav{
+    position: fixed;
+    display: flex;
+    width: 15%;
+    height: 89vh;
+    bottom: 0;
+}
+nav#nav{
+    width: 0%;
+    background-color: rgb(48, 48, 48);
+    overflow: hidden;
+    padding-top: 10%;
+    transition: all 0.2s ease-in-out;
+}
+div#fornav{
+    width: 10%;
+    height: 100%;
+    background-color: cornflowerblue;
+    cursor: pointer;
+}
+nav.show{
+    width: 90% !important;
+    transition: all 0.2s ease-in-out;
+}
+button{
+    cursor: pointer;
+}
+button.navbtn{
+    width: 95%;
+    height: 5%;
+    background: gray;
+    color: white;
+    font-size: medium;
+    display: flex;
+    align-items: center;
+    margin-left: 2%;
+    margin-top: 5%;
+    justify-content: center;
+}
+a{
+    font-style: none;
+    text-decoration: none;
+}
+div#center{
+    height: 5vh;
+    position: inherit;
+    margin: 0.5% 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1%;
+    border-radius: 5px;
+}
+div.center1{
+    background: gray;
+}
+div.center2{
+    background: cornflowerblue;
+    width: 98.3%;
+    cursor: pointer;
+}
+div.center3{
+    background: cornflowerblue;
+    width: 98.3%;
+    cursor: pointer;
+}
+div.center4{
+    background: cornflowerblue;
+    width: 98.3%;
+    cursor: pointer;
+
+}
+div button#center {
+    height: 85%;
+    width: 7%;
+    border-radius: 10px;
+    border: 4px solid #616195;
+    color: white;
+    background: rgb(48, 48, 48);
+    font-size: initial;
+    font-weight: 100;
+}
+div.center2 h2{
+    color: white;
+}
+div.center3 h2{
+    color: white;
+}
+div.center4 h2{
+    color: white;
+}
+div.forcenter2{
+    margin: 0 !important;
+    background-color: rgb(48, 48, 48);
+    width: 98.3%;
+    height: 0vh !important;
+    overflow: hidden;
+    transition: all 0.2s ease-in-out;
+}
+div.forcenter3{
+    margin: 0 !important;
+    background-color: rgb(48, 48, 48);
+    width: 98.3%;
+    height: 0vh !important;
+    overflow: hidden;
+    transition: all 0.2s ease-in-out;
+}
+div.forcenter4{
+    margin: 0 !important;
+    background-color: rgb(48, 48, 48);
+    width: 98.3%;
+    height: 0vh !important;
+    overflow: hidden;
+    transition: all 0.2s ease-in-out;
+}
+div#allcenterdiv{
+    display: grid;
+    width: 100%;
+    justify-items: end;
+}
+div.showcenter2{
+    height: max-content !important;
+    display: flex !important;
+    transition: all 0.2s ease-in-out;
+}
+div.showcenter3{
+    height: max-content !important;
+    display: flex !important;
+    transition: all 0.2s ease-in-out;
+}
+div.showcenter4{
+    height: 31vh !important;
+    display: flex !important;
+    justify-content: space-around !important;
+    transition: all 0.2s ease-in-out;
+}
+div.showcenter2 form{
+    width: 98%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+div .inputform:not(input[type='checkbox']){
+    width: 100%;
+    height: 28px !important;
+    border-radius: 5px;
+}
+form div{
+    width: 21%;
+    height: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-items: start;
+    margin: 0.4%;
+    align-items: flex-start;
+}
+form label{
+    color: white;
+}
+form div:last-child{
+    margin-top: 3% !important;
+    display: flex !important;
+    flex-direction: row !important;
+}
+table{
+    width: 100%;
+    background-color: #7f6464;
+}
+table tr th{
+    width: 10%;
+    padding: 0.5% 1%;
+    color: white;
+}
+tr#tdchanged td{
+    height: 4vh;
+    background-color: gray;
+    color: white;
+    margin: auto;
+}
+#forcenter4_firstdiv{
+    display: grid;
+    width: 100%;
+}
+#forcenter4_firstdiv_1{
+    display: flex;
+}
+.div_for_forrcenter4{
+    height: 100%;
+    display: grid;
+    margin: 1.5% 4% 0 2%;
+    color: white;
+}
+.div_for_forrcenter4_1{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    margin: 1.5% 4% 0 2%;
+    color: white;
+    flex-direction: column;
+    gap: 2%;
+}
+.small_div_for_forcenter4{
+    display: flex;
+    gap: 10%;
+    justify-content: space-between;
+}
+.small_div_for_forcenter4 input{
+    width: 70%;
+}
+.btn_send_mail{
+    height: 20%;
+    background: transparent;
+    color: white;
+    border: 2px solid deepskyblue;
+    border-radius: 10px;
+    margin-top: 20%;
+}
+
+
+
+#tdchanged{
+    cursor: pointer;
+}
+#tdchanged:hover{
+    border: 4px solid black;
+}
+
+
+
+
+
+#form12{
+    height: 75%;
+    width: 7%;
+    border-radius: 10px;
+    border: 4px solid #616195;
+    color: white;
+    background: rgb(48, 48, 48);
+    display: flex;
+    align-items: center;
+    font-size: initial;
+}
+
+.img{
+    width: 100px;
+    height: 95px;
+  
+    
+}

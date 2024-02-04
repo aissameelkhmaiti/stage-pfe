@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>index</title>
+    <script src="http://localhost/gestion_incident/client/js/fonction.js"></script>
+    <link rel="stylesheet" href="http://localhost/Gestion_incident/client/css/connexion.css">
+   <style>
+  body{
+    background-color: rgb(254, 255, 255);
+}
+p a{
+    padding: 10px;
+}
+   </style>
+</head>
+<body>
+    <header>
+      
+        <h1>Gestion des incidents : CIO/E/U/J</h1>
+    </header>
+    <section>
+        <form action="" method="post" onsubmit="CheckData()">
+            <h3>CONNEXION UTILISATEUR</h3>
+            <label for="identifiant">Identifiant:</label>
+            <input type="text" name="identifiant" id="identifiant" required>
+            <label for="motdepasse">Mot de passe:</label>
+            <input type="password" name="motdepasse" id="motdepasse" required>
+            <div id="message"></div>
+            <button type="submit">login</button>
+            <p>Pas encore de compte ? <a href="http://localhost/gestion_incident/inscription.html">Inscrivez-vous ici</a></p>
+        </form>
+        
+    </section>
+</body>
+</html>
